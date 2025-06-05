@@ -5,7 +5,7 @@ en:
       date_and_time_field: "%m/%d/%Y %l:%M %p"
       date_controller: "MM/DD/YYYY"
   time:
-    am: AM
+    am: AM test
     pm: PM
     formats:
       date_field: "%m/%d/%Y"
