@@ -1,0 +1,144 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.with_locale`:
+#
+#     I18n.with_locale(:es, &block)
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   "true": "foo"
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+fr:
+  bullet_train:
+    name: Train à grande vitesse
+    tagline: Le modèle SaaS Ruby on Rails
+    description: Bullet Train est un modèle SaaS Ruby on Rails clé en main qui fait gagner des semaines de travail aux développeurs.
+    keywords: bullet train ruby on rails saas modèle kit de démarrage
+    support_email: ask@bullettrain.co
+  global:
+    or: Ou
+    more: Plus
+    is_admin: Admin ?
+    person: Personne
+    admin: Admin
+    confirm_message: Êtes-vous sûr ?
+    typing_search: Commencez à taper votre recherche...
+    sidebar: Barre latérale
+    creator: Bullet Train, Inc.
+    time_ago: Il y a %{time}
+    never: Jamais
+    buttons:
+      other: Autre
+      debug: Déboguer
+      details: Détails
+      revoke: Révoquer
+      cancel: Annuler
+      next: Suivant
+      back: Retour
+      new: Nouveau
+      edit: Modifier
+      settings: Paramètres
+      configure: Configurer
+      remove: Supprimer
+      delete: Supprimer
+      update: Mettre à jour
+      sign_up: S'inscrire
+      sign_in: Se connecter
+    notifications:
+      not_found: non trouvé
+      all_fields_required: Tous ces champs sont obligatoires.
+    dates:
+      today: Aujourd'hui
+      day:
+        one: 1 jour
+        other: "%{count} Jours"
+      last_month: Le mois dernier
+      last_week: La semaine dernière
+      last_day:
+        one: Le jour dernier
+        other: Les %{count} derniers jours
+    formats:
+      timestamp_unavailable: Jamais
+      date: "%m/%d/%Y"
+      date_and_time: "%m/%d/%Y %l:%M %p"
+    file_fields:
+      download: Télécharger le fichier
+      download_current: Télécharger le document actuel
+      remove: Supprimer le document actuel
+      upload: Télécharger un nouveau document
+    bulk_select:
+      all: Tous
+
+  menus:
+    main:
+      labels:
+        account: Compte
+        new: Nouveau
+        profile_details: Détails du profil
+        logout: Déconnexion
+        skip: Passer pour le moment
+        dashboard: Tableau de bord
+        team_members: Membres de l'équipe
+        webhooks: Webhooks
+        invitations: Invitations
+        billing: Facturation
+        upgrade: Mettre à niveau
+        switch_teams: Changer d'équipe
+        add_new_team: Ajouter une nouvelle équipe
+        edit_account_details: Détails du compte
+        resources: Ressources
+        collaborate: Collaborer
+        integrations: Intégrations
+        developers: Développeurs
+        your_account: Votre compte
+        team: Équipe
+        team_settings: Paramètres de l'équipe
+
+  breadcrumbs:
+    your_dashboard: Votre tableau de bord
+    actions:
+      edit: Modifier
+      new: Nouveau
+
+  fields:
+    date_field:
+      apply: Appliquer
+      cancel: Effacer
+
+  layouts:
+
+    application:
+      raise: nous ne devrions jamais utiliser la mise en page de l'application.
+
+    mailer:
+      trouble: Si vous avez des problèmes avec le bouton ci-dessus, copiez et collez l'URL ci-dessous dans votre navigateur web.
+      all_rights_reserved: "%{year} %{product_name}. Tous droits réservés."
+
+    public:
+      launch_help: Nous aidons les gens à lancer des produits SaaS de haute qualité!
+      developed_by: Développé par
+      made_with_love: Fait avec amour à
+      location: Los Angeles, Californie
+      follow_us: Suivez-nous
+      all_rights_reserved: "%{year} Bullet Train, Inc., Tous droits réservés"
