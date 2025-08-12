@@ -1,0 +1,13 @@
+fr_FR:
+  date:
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: JJ/MM/AAAA
+  time:
+    am: AM test
+    pm: PM
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: JJ/MM/AAAA h:mm A
