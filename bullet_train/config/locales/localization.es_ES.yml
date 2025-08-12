@@ -1,0 +1,13 @@
+es_ES:
+  date:
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: DD/MM/AAAA
+  time:
+    am: AM prueba
+    pm: PM
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: DD/MM/AAAA H:mm

@@ -1,0 +1,13 @@
+pt_BR:
+  date:
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: MM/DD/AAAA
+  time:
+    am: AM teste
+    pm: PM
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: MM/DD/AAAA h:mm A

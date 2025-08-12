@@ -1,0 +1,13 @@
+it_IT:
+  date:
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: GG/MM/AAAA
+  time:
+    am: AM test
+    pm: PM
+    formats:
+      date_field: "%m/%d/%Y"
+      date_and_time_field: "%m/%d/%Y %l:%M %p"
+      date_controller: GG/MM/AAAA h:mm A
