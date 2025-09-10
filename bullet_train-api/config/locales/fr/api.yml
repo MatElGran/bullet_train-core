@@ -1,0 +1,13 @@
+fr:
+  api:
+    statuses:
+      200: 'fr: Success' # okay
+      201: 'fr: Success' # created
+      400: 'fr: Missing or bad parameters' # bad request
+      401: 'fr: Not authorized' # unauthorized
+      403: 'fr: Permission denied' # forbidden
+      404: 'fr: Record not found' # not found
+      406: 'fr: Validation errors' # not acceptable
+      422: 'fr: Record not saved' # unprocessable entity
+      429: 'fr: API rate limit exceeded' # too many requests
+      500: 'fr: Internal server error' # internal server error
