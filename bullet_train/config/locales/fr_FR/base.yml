@@ -1,144 +1,95 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.with_locale`:
-#
-#     I18n.with_locale(:es, &block)
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
-fr:
+fr_FR:
   bullet_train:
-    name: Train à grande vitesse
-    tagline: Le modèle SaaS Ruby on Rails
-    description: Bullet Train est un modèle SaaS Ruby on Rails clé en main qui fait gagner des semaines de travail aux développeurs.
-    keywords: bullet train ruby on rails saas modèle kit de démarrage
-    support_email: ask@bullettrain.co
+    name: 'fr: Bullet train'
+    tagline: 'fr: The ruby on rails SaaS template'
+    description: 'fr: Bullet Train is a Ruby on Rails SaaS-in-a-Box that saves developers weeks of effort.'
+    keywords: 'fr: bullet train ruby on rails saas template starter kit'
+    support_email: 'fr: ask@bullettrain.co'
   global:
-    or: Ou
-    more: Plus
-    is_admin: Admin ?
-    person: Personne
-    admin: Admin
-    confirm_message: Êtes-vous sûr ?
-    typing_search: Commencez à taper votre recherche...
-    sidebar: Barre latérale
-    creator: Bullet Train, Inc.
-    time_ago: Il y a %{time}
-    never: Jamais
+    or: 'fr: Or'
+    more: 'fr: More'
+    is_admin: 'fr: Admin?'
+    person: 'fr: Person'
+    admin: 'fr: Admin'
+    confirm_message: 'fr: Are you sure?'
+    typing_search: 'fr: Start typing search...'
+    sidebar: 'fr: Sidebar'
+    creator: 'fr: Bullet Train, Inc.'
+    time_ago: 'fr: %{time} ago'
+    never: 'fr: Never'
     buttons:
-      other: Autre
-      debug: Déboguer
-      details: Détails
-      revoke: Révoquer
-      cancel: Annuler
-      next: Suivant
-      back: Retour
-      new: Nouveau
-      edit: Modifier
-      settings: Paramètres
-      configure: Configurer
-      remove: Supprimer
-      delete: Supprimer
-      update: Mettre à jour
-      sign_up: S'inscrire
-      sign_in: Se connecter
+      one: 'fr: Other'
+      many: 'fr: Other'
+      other: 'fr: Other'
     notifications:
-      not_found: non trouvé
-      all_fields_required: Tous ces champs sont obligatoires.
+      not_found: 'fr: not found'
+      all_fields_required: 'fr: All of these fields are required.'
     dates:
-      today: Aujourd'hui
+      today: 'fr: Today'
       day:
-        one: 1 jour
-        other: "%{count} Jours"
-      last_month: Le mois dernier
-      last_week: La semaine dernière
+        one: 'fr: 1 day'
+        many: 'fr: %{count} days'
+        other: 'fr: %{count} days'
+      last_month: 'fr: Last month'
+      last_week: 'fr: Last week'
       last_day:
-        one: Le jour dernier
-        other: Les %{count} derniers jours
+        one: 'fr: Last day'
+        many: 'fr: Last %{count} days'
+        other: 'fr: Last %{count} days'
     formats:
-      timestamp_unavailable: Jamais
-      date: "%m/%d/%Y"
-      date_and_time: "%m/%d/%Y %l:%M %p"
+      timestamp_unavailable: 'fr: Never'
+      date: 'fr: %m/%d/%Y'
+      date_and_time: 'fr: %m/%d/%Y %l:%M %p'
     file_fields:
-      download: Télécharger le fichier
-      download_current: Télécharger le document actuel
-      remove: Supprimer le document actuel
-      upload: Télécharger un nouveau document
+      download: 'fr: Download file'
+      download_current: 'fr: Download current document'
+      remove: 'fr: Remove current document'
+      upload: 'fr: Upload new document'
     bulk_select:
-      all: Tous
-
+      all: 'fr: All'
   menus:
     main:
       labels:
-        account: Compte
-        new: Nouveau
-        profile_details: Détails du profil
-        logout: Déconnexion
-        skip: Passer pour le moment
-        dashboard: Tableau de bord
-        team_members: Membres de l'équipe
-        webhooks: Webhooks
-        invitations: Invitations
-        billing: Facturation
-        upgrade: Mettre à niveau
-        switch_teams: Changer d'équipe
-        add_new_team: Ajouter une nouvelle équipe
-        edit_account_details: Détails du compte
-        resources: Ressources
-        collaborate: Collaborer
-        integrations: Intégrations
-        developers: Développeurs
-        your_account: Votre compte
-        team: Équipe
-        team_settings: Paramètres de l'équipe
-
+        account: 'fr: Account'
+        new: 'fr: New'
+        profile_details: 'fr: Profile details'
+        logout: 'fr: Logout'
+        skip: 'fr: Skip for now'
+        dashboard: 'fr: Dashboard'
+        team_members: 'fr: Team members'
+        webhooks: 'fr: Webhooks'
+        invitations: 'fr: Invitations'
+        billing: 'fr: Billing'
+        upgrade: 'fr: Upgrade'
+        switch_teams: 'fr: Switch teams'
+        add_new_team: 'fr: Add new team'
+        edit_account_details: 'fr: Account details'
+        resources: 'fr: Resources'
+        collaborate: 'fr: Collaborate'
+        integrations: 'fr: Integrations'
+        developers: 'fr: Developers'
+        your_account: 'fr: Your account'
+        team: 'fr: Team'
+        team_settings: 'fr: Team settings'
   breadcrumbs:
-    your_dashboard: Votre tableau de bord
+    your_dashboard: 'fr: Your dashboard'
     actions:
-      edit: Modifier
-      new: Nouveau
-
+      edit: 'fr: Edit'
+      new: 'fr: New'
   fields:
     date_field:
-      apply: Appliquer
-      cancel: Effacer
-
+      apply: 'fr: Apply'
+      cancel: 'fr: Clear'
   layouts:
-
     application:
-      raise: nous ne devrions jamais utiliser la mise en page de l'application.
-
+      raise: 'fr: we should never be using the application layout.'
     mailer:
-      trouble: Si vous avez des problèmes avec le bouton ci-dessus, copiez et collez l'URL ci-dessous dans votre navigateur web.
-      all_rights_reserved: "%{year} %{product_name}. Tous droits réservés."
-
+      trouble: 'fr: If you’re having trouble with the button above, copy and paste the URL below into your web browser.'
+      all_rights_reserved: 'fr: %{year} %{product_name}. All rights reserved.'
     public:
-      launch_help: Nous aidons les gens à lancer des produits SaaS de haute qualité!
-      developed_by: Développé par
-      made_with_love: Fait avec amour à
-      location: Los Angeles, Californie
-      follow_us: Suivez-nous
-      all_rights_reserved: "%{year} Bullet Train, Inc., Tous droits réservés"
+      launch_help: 'fr: We''re helping people launch high quality SaaS products!'
+      developed_by: 'fr: Developed by'
+      made_with_love: 'fr: Made with love in'
+      location: 'fr: Los angeles, california'
+      follow_us: 'fr: Follow us'
+      all_rights_reserved: 'fr: %{year} Bullet Train, Inc., All Rights Reserved'
